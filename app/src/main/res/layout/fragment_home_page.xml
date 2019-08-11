@@ -1,0 +1,16 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_disabled"
+    android:orientation="vertical"
+    tools:context="com.example.alexw.testlogin.HomePage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_page_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</android.support.v4.widget.SwipeRefreshLayout>

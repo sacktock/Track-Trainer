@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_activetraining"
+            android:icon="@drawable/active_training_icon"
+            android:title="Active Training" />
+        <item
+            android:id="@+id/nav_traininglog"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Activity Log" />
+        <item
+            android:id="@+id/nav_aboutyou"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About You" />
+    </group>
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_generatetraining"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Training Generator" />
+            <item
+                android:id="@+id/nav_personalbest"
+                android:icon="@drawable/personal_best_unfocused"
+                android:title="Your Records" />
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_viewprofile"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="Your Profile" />
+        </menu>
+    </item>
+</menu>
