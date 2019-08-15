@@ -23,6 +23,16 @@ Installing
 
 The only way to install this project onto a device at the moment is by running it from android studio onto the desired device, using a USB connection.
 
+Configuration
+-------------
+
+This project requires an SQLite database and won't work properly if the project can't find a '.db' file. The application will automatically create an empty database when it is run for the first time. If you want to initalise the database with example data; go into the 'StaticDataBaseAccessor' class 'app -> src -> main -> java -> alexw.classes' and change the 'DB_PATH' value so it matches the location of the 'athlete_database.db' file within the 'athlete_database' sub-directory - make sure this is done before the appliaction is run on a device for the first time.
+
+Code
+----
+
+The main bulk of code can be found in 'app -> src -> main -> java'.
+
 Testing
 -------
 
